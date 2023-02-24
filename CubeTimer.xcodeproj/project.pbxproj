@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5587602D29A5D647006039A4 /* firstAttemptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5587602C29A5D647006039A4 /* firstAttemptApp.swift */; };
+		5587602D29A5D647006039A4 /* CubeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5587602C29A5D647006039A4 /* CubeTimer.swift */; };
 		5587602F29A5D647006039A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5587602E29A5D647006039A4 /* ContentView.swift */; };
 		5587603129A5D648006039A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5587603029A5D648006039A4 /* Assets.xcassets */; };
 		5587603429A5D648006039A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5587603329A5D648006039A4 /* Preview Assets.xcassets */; };
@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		5587602929A5D647006039A4 /* CubeTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5587602C29A5D647006039A4 /* firstAttemptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstAttemptApp.swift; sourceTree = "<group>"; };
+		5587602C29A5D647006039A4 /* CubeTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeTimer.swift; sourceTree = "<group>"; };
 		5587602E29A5D647006039A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5587603029A5D648006039A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5587603329A5D648006039A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		5587602029A5D647006039A4 = {
 			isa = PBXGroup;
 			children = (
-				5587602B29A5D647006039A4 /* firstAttempt */,
+				5587602B29A5D647006039A4 /* CubeTimer */,
 				5587603C29A5D648006039A4 /* firstAttemptTests */,
 				5587604629A5D648006039A4 /* firstAttemptUITests */,
 				5587602A29A5D647006039A4 /* Products */,
@@ -91,15 +91,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5587602B29A5D647006039A4 /* firstAttempt */ = {
+		5587602B29A5D647006039A4 /* CubeTimer */ = {
 			isa = PBXGroup;
 			children = (
-				5587602C29A5D647006039A4 /* firstAttemptApp.swift */,
+				5587602C29A5D647006039A4 /* CubeTimer.swift */,
 				5587602E29A5D647006039A4 /* ContentView.swift */,
 				5587603029A5D648006039A4 /* Assets.xcassets */,
 				5587603229A5D648006039A4 /* Preview Content */,
 			);
-			path = firstAttempt;
+			path = CubeTimer;
 			sourceTree = "<group>";
 		};
 		5587603229A5D648006039A4 /* Preview Content */ = {
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5587602F29A5D647006039A4 /* ContentView.swift in Sources */,
-				5587602D29A5D647006039A4 /* firstAttemptApp.swift in Sources */,
+				5587602D29A5D647006039A4 /* CubeTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
