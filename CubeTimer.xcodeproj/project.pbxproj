@@ -34,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5587602929A5D647006039A4 /* firstAttempt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstAttempt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5587602929A5D647006039A4 /* CubeTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5587602C29A5D647006039A4 /* firstAttemptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstAttemptApp.swift; sourceTree = "<group>"; };
 		5587602E29A5D647006039A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5587603029A5D648006039A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5587603329A5D648006039A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5587603929A5D648006039A4 /* firstAttemptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstAttemptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5587603929A5D648006039A4 /* CubeTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubeTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5587603D29A5D648006039A4 /* firstAttemptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstAttemptTests.swift; sourceTree = "<group>"; };
-		5587604329A5D648006039A4 /* firstAttemptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstAttemptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5587604329A5D648006039A4 /* CubeTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubeTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5587604729A5D648006039A4 /* firstAttemptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstAttemptUITests.swift; sourceTree = "<group>"; };
 		5587604929A5D649006039A4 /* firstAttemptUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstAttemptUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,9 +84,9 @@
 		5587602A29A5D647006039A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5587602929A5D647006039A4 /* firstAttempt.app */,
-				5587603929A5D648006039A4 /* firstAttemptTests.xctest */,
-				5587604329A5D648006039A4 /* firstAttemptUITests.xctest */,
+				5587602929A5D647006039A4 /* CubeTimer.app */,
+				5587603929A5D648006039A4 /* CubeTimerTests.xctest */,
+				5587604329A5D648006039A4 /* CubeTimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5587602829A5D647006039A4 /* firstAttempt */ = {
+		5587602829A5D647006039A4 /* CubeTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5587604D29A5D649006039A4 /* Build configuration list for PBXNativeTarget "firstAttempt" */;
+			buildConfigurationList = 5587604D29A5D649006039A4 /* Build configuration list for PBXNativeTarget "CubeTimer" */;
 			buildPhases = (
 				5587602529A5D647006039A4 /* Sources */,
 				5587602629A5D647006039A4 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = firstAttempt;
+			name = CubeTimer;
 			productName = firstAttempt;
-			productReference = 5587602929A5D647006039A4 /* firstAttempt.app */;
+			productReference = 5587602929A5D647006039A4 /* CubeTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5587603829A5D648006039A4 /* firstAttemptTests */ = {
+		5587603829A5D648006039A4 /* CubeTimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5587605029A5D649006039A4 /* Build configuration list for PBXNativeTarget "firstAttemptTests" */;
+			buildConfigurationList = 5587605029A5D649006039A4 /* Build configuration list for PBXNativeTarget "CubeTimerTests" */;
 			buildPhases = (
 				5587603529A5D648006039A4 /* Sources */,
 				5587603629A5D648006039A4 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				5587603B29A5D648006039A4 /* PBXTargetDependency */,
 			);
-			name = firstAttemptTests;
+			name = CubeTimerTests;
 			productName = firstAttemptTests;
-			productReference = 5587603929A5D648006039A4 /* firstAttemptTests.xctest */;
+			productReference = 5587603929A5D648006039A4 /* CubeTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5587604229A5D648006039A4 /* firstAttemptUITests */ = {
+		5587604229A5D648006039A4 /* CubeTimerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5587605329A5D649006039A4 /* Build configuration list for PBXNativeTarget "firstAttemptUITests" */;
+			buildConfigurationList = 5587605329A5D649006039A4 /* Build configuration list for PBXNativeTarget "CubeTimerUITests" */;
 			buildPhases = (
 				5587603F29A5D648006039A4 /* Sources */,
 				5587604029A5D648006039A4 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				5587604529A5D648006039A4 /* PBXTargetDependency */,
 			);
-			name = firstAttemptUITests;
+			name = CubeTimerUITests;
 			productName = firstAttemptUITests;
-			productReference = 5587604329A5D648006039A4 /* firstAttemptUITests.xctest */;
+			productReference = 5587604329A5D648006039A4 /* CubeTimerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5587602429A5D647006039A4 /* Build configuration list for PBXProject "firstAttempt" */;
+			buildConfigurationList = 5587602429A5D647006039A4 /* Build configuration list for PBXProject "CubeTimer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5587602829A5D647006039A4 /* firstAttempt */,
-				5587603829A5D648006039A4 /* firstAttemptTests */,
-				5587604229A5D648006039A4 /* firstAttemptUITests */,
+				5587602829A5D647006039A4 /* CubeTimer */,
+				5587603829A5D648006039A4 /* CubeTimerTests */,
+				5587604229A5D648006039A4 /* CubeTimerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		5587603B29A5D648006039A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5587602829A5D647006039A4 /* firstAttempt */;
+			target = 5587602829A5D647006039A4 /* CubeTimer */;
 			targetProxy = 5587603A29A5D648006039A4 /* PBXContainerItemProxy */;
 		};
 		5587604529A5D648006039A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5587602829A5D647006039A4 /* firstAttempt */;
+			target = 5587602829A5D647006039A4 /* CubeTimer */;
 			targetProxy = 5587604429A5D648006039A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstAttempt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/firstAttempt";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CubeTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CubeTimer";
 			};
 			name = Debug;
 		};
@@ -499,7 +499,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstAttempt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/firstAttempt";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CubeTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CubeTimer";
 			};
 			name = Release;
 		};
@@ -540,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5587602429A5D647006039A4 /* Build configuration list for PBXProject "firstAttempt" */ = {
+		5587602429A5D647006039A4 /* Build configuration list for PBXProject "CubeTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5587604B29A5D649006039A4 /* Debug */,
@@ -549,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5587604D29A5D649006039A4 /* Build configuration list for PBXNativeTarget "firstAttempt" */ = {
+		5587604D29A5D649006039A4 /* Build configuration list for PBXNativeTarget "CubeTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5587604E29A5D649006039A4 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5587605029A5D649006039A4 /* Build configuration list for PBXNativeTarget "firstAttemptTests" */ = {
+		5587605029A5D649006039A4 /* Build configuration list for PBXNativeTarget "CubeTimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5587605129A5D649006039A4 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5587605329A5D649006039A4 /* Build configuration list for PBXNativeTarget "firstAttemptUITests" */ = {
+		5587605329A5D649006039A4 /* Build configuration list for PBXNativeTarget "CubeTimerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5587605429A5D649006039A4 /* Debug */,
